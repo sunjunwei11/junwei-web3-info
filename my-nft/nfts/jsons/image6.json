@@ -1,0 +1,19 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Hair Length",
+            "value": "Long"
+        },
+        {
+            "trait_type": "Hair Color",
+            "value": "Purple"
+        },
+        {
+            "trait_type": "Cloth",
+            "value": "Maid"
+        }
+    ],
+    "description": "Digi girls is a test project",
+    "image": "https://ipfs.io/ipfs/Qmdh4cmyf6w4aJe7aEYfbvQGzx17VeFNLKbnQAuESawh4J",
+    "name": "Digi girls"
+}

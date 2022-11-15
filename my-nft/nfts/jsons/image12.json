@@ -1,0 +1,19 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Hair Length",
+            "value": "Long"
+        },
+        {
+            "trait_type": "Hair Color",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Cloth",
+            "value": "Cheongsam"
+        }
+    ],
+    "description": "Digi girls is a test project",
+    "image": "https://ipfs.io/ipfs/QmR1E858roxtCBrZys8373vAjLiotwWQ1UHzGZwhiouhxp",
+    "name": "Digi girls"
+}

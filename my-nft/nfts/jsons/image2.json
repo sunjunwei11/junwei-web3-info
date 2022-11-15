@@ -1,0 +1,19 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Hair Length",
+            "value": "Shot"
+        },
+        {
+            "trait_type": "Hair Color",
+            "value": "Grey"
+        },
+        {
+            "trait_type": "Cloth",
+            "value": "Bikini"
+        }
+    ],
+    "description": "Digi girls is a test project",
+    "image": "https://ipfs.io/ipfs/QmaktrsNaxcC3Z2FWKDWoJi2ZA7zurRXYo1MBQ8x6sGQuq",
+    "name": "Digi girls"
+}
