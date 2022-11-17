@@ -39,14 +39,16 @@ async function connectWallet() {
 }
 
 // We reinitialize it whenever the user changes their account.
-window.ethereum!.on("accountsChanged", (accounts) => {
-  reset();
-  initializeEthers((accounts as string[])[0]);
-});
+window.ethereum &&
+  window.ethereum!.on("accountsChanged", (accounts) => {
+    reset();
+    initializeEthers((accounts as string[])[0]);
+  });
 
-window.ethereum!.on("chainChanged", () => {
-  window.location.reload();
-});
+window.ethereum &&
+  window.ethereum!.on("chainChanged", () => {
+    window.location.reload();
+  });
 
 async function initializeEthers(userAddress: string) {
   const networkRight: boolean = checkNetwork();

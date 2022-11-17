@@ -4,7 +4,9 @@
       <HeaderCom />
     </el-header>
     <el-container class="bottom-info">
-      <div v-if="!hasMetaMask">Need install Metamask first</div>
+      <div v-if="!hasMetaMask" class="no-metamask">
+        Need install Metamask first
+      </div>
       <template v-else>
         <el-aside width="200px"> <SideMenu /> </el-aside>
         <el-main>
@@ -47,6 +49,12 @@ watch(
 }
 
 .bottom-info {
+  margin-top: 20px;
+}
+.no-metamask {
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
   margin-top: 20px;
 }
 </style>
